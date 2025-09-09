@@ -9,7 +9,7 @@ This repository contains walkthroughs for various rooms on TryHackMe, a platform
 
 | Room Name | Difficulty | Description | Room Type |
 |-----------|------------|-------------|-----------|
-| [Blue](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/blue%20CTF.md) | Easy |Windows Exploitation Basics | MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption|
+| [Blue](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/blue%20CTF.md) | Easy |EternalBlue exploitation (MS17-010) | Offensive|
 | [Kenobi](TryHackMe/Kenobi/README.md) | Easy | SMB enumeration and privilege escalation | Offensive |
 | [Blue](TryHackMe/Blue/README.md) | Easy | EternalBlue exploitation (MS17-010) | Offensive |
 | [Active Directory Basics](TryHackMe/Active-Directory/README.md) | Medium | Core Active Directory attacks and defenses | Defensive |
