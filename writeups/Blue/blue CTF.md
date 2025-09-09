@@ -96,5 +96,5 @@ As said to run the command “hashdump” these command had dumped three user na
 ![alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202025-09-09%20140530.png)
  I cracked the password with the help from john the ripper 
 ![alt text](https://github.com/L33-a/TryHackMe-Writeups/blob/main/writeups/Blue/Screenshot%202024-02-22%20181804.png)
- #task 5 (flag)
+ # task 5 (flag)
  we have have full access to the computer we can access the flags
